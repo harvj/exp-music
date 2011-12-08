@@ -1,0 +1,36 @@
+h1. Listening Habits
+
+This application interfaces with a database (populated by admin users) that stores:
+
+1. *Recordings*, which are grouped as
+2. *Releases*, and are recorded by
+3. *Musicians*, who record in groups or alone as  
+4. *Artists*
+
+Users of this application listen to music as mp3s on any listening software, web-based or otherwise, and the application identifies the recordings and tracks them for the user as:
+
+1. *Plays*, which then become part of the user's
+2. *Library*
+
+h2. Data Structures
+
+h3. Recordings
+Recordings have a length (in seconds), a recording date (mm-dd-yy). Recordings belong to one or more Releases.
+
+h3. Releases
+Releases have a release date (mm-dd-yy), and associated artwork (.png). Releases have one or more Recordings and belong to one or more Artists. 
+
+h3. Musicians
+Musicians have a first name, last name, and birth country, province, and city. Musicians belong to one or more Artists.
+
+h3. Artists
+Artists have a name, and home country, province, and city. Artists have one or more Releases
+
+h3. Plays
+Plays have a length (in seconds, can be expressed as a percentage of the Recording length), a datetime of occurence, and are associated with one existing Recording
+
+h3. Libraries
+Libraries are collections of Plays (which, in turn, are Recordings associated with Releases and Artists) and belong to one User
+
+
+ 
