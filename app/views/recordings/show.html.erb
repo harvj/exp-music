@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @recording.name %>
+</p>
+
+<p>
+  <b>Length:</b>
+  <%= @recording.length %>
+</p>
+
+
+<%= link_to 'Edit', edit_recording_path(@recording) %> |
+<%= link_to 'Back', recordings_path %>

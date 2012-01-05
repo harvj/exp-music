@@ -8,7 +8,27 @@
 </head>
 <body>
 
-<%= yield %>
+<div id="page" class="<%= params[:controller] %>-<%= params[:action] %>">
 
+  <div id="header">
+    <div id="account-nav">
+      <% if user_signed_in? %>
+        Signed in as <%= current_user.username %> | 
+        <%= link_to "Logout", destroy_user_session_path, :method => :delete %>
+      <% else %>
+        <%= link_to "Register", new_user_registration_path %> or 
+        <%= link_to "Login", new_user_session_path %>
+      <% end %>
+    </div>
+    <h1>I'm listening...</h1>
+  </div>
+
+  <div id="content">
+    <%= yield %>
+  </div>
+
+  <div id="footer"></div>
+
+</div>
 </body>
 </html>

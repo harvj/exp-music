@@ -1,0 +1,48 @@
+// This is a manifest file that'll automatically include all the stylesheets available in this directory
+// and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+// the top of the compiled file, but it's generally better to create a new file per style scope.
+//= require_self
+
+@import 'fonts'
+@import 'colors'
+
+body
+  font-family: $helvetica
+  background: $dark-gray
+
+#page
+  width: 960px
+  margin: auto
+  padding: 10px
+  color: darken($white, 10%)
+
+#account-nav
+  float: right
+
+h1, h2, h3, h4, h5, h6
+  margin-top: 0
+
+a
+  color: $like-green
+  text-decoration: none
+a:hover
+  color: $like-blue
+  text-decoration: underline
+
+input
+  &[type='text'], &[type='password'], &[type='email'] 
+    background: lighten($dark-gray, 10%)
+    padding: 5px 15px
+    color: $white
+    border: 1px solid $like-green
+    border-radius: 3px
+  &[type='submit']
+    cursor: pointer
+
+#login-form
+  width: 300px
+  margin: auto
+  input
+    width: 250px
+    &[type='submit']
+      width: auto
