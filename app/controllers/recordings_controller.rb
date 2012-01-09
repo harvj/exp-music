@@ -1,6 +1,6 @@
 class RecordingsController < ApplicationController
-  # GET /recordings
-  # GET /recordings.json
+  before_filter :authenticate_user!
+
   def index
     @recordings = Recording.all
 
@@ -10,8 +10,6 @@ class RecordingsController < ApplicationController
     end
   end
 
-  # GET /recordings/1
-  # GET /recordings/1.json
   def show
     @recording = Recording.find(params[:id])
 
@@ -21,8 +19,6 @@ class RecordingsController < ApplicationController
     end
   end
 
-  # GET /recordings/new
-  # GET /recordings/new.json
   def new
     @recording = Recording.new
 
@@ -32,13 +28,10 @@ class RecordingsController < ApplicationController
     end
   end
 
-  # GET /recordings/1/edit
   def edit
     @recording = Recording.find(params[:id])
   end
 
-  # POST /recordings
-  # POST /recordings.json
   def create
     @recording = Recording.new(params[:recording])
 
@@ -53,8 +46,6 @@ class RecordingsController < ApplicationController
     end
   end
 
-  # PUT /recordings/1
-  # PUT /recordings/1.json
   def update
     @recording = Recording.find(params[:id])
 
@@ -69,8 +60,6 @@ class RecordingsController < ApplicationController
     end
   end
 
-  # DELETE /recordings/1
-  # DELETE /recordings/1.json
   def destroy
     @recording = Recording.find(params[:id])
     @recording.destroy

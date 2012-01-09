@@ -11,11 +11,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120104000837) do
+ActiveRecord::Schema.define(:version => 20120107004640) do
 
   create_table "recordings", :force => true do |t|
     t.string   "name"
     t.integer  "length"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "releases", :force => true do |t|
+    t.string   "name"
+    t.date     "release_date"
+    t.date     "recording_date"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

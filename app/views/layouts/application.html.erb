@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Muzik</title>
+  <title>Muz | <%= params[:action].titleize %> <%= params[:controller].titleize %></title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -15,12 +15,18 @@
       <% if user_signed_in? %>
         Signed in as <%= current_user.username %> | 
         <%= link_to "Logout", destroy_user_session_path, :method => :delete %>
+      <% elsif controller_name == 'sessions' %>
+        No account? <%= link_to "Register", new_user_registration_path %>
       <% else %>
-        <%= link_to "Register", new_user_registration_path %> or 
         <%= link_to "Login", new_user_session_path %>
       <% end %>
     </div>
-    <h1>I'm listening...</h1>
+    <div id="logo"><%= link_to 'home', root_path %></div>
+    <div id="site-nav">
+      <ul class="navigation">
+        <li><%= link_to "Releases", releases_path %></li>
+      </ul>
+    </div>
   </div>
 
   <div id="content">
