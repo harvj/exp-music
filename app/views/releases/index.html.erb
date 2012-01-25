@@ -4,7 +4,6 @@
   <tr>
     <th>Name</th>
     <th>Release date</th>
-    <th>Recording date</th>
     <th></th>
     <th></th>
     <th></th>
@@ -14,7 +13,6 @@
   <tr>
     <td><%= release.name %></td>
     <td><%= release.release_date %></td>
-    <td><%= release.recording_date %></td>
     <td><%= link_to 'Show', release %></td>
     <td><%= link_to 'Edit', edit_release_path(release) %></td>
     <td><%= link_to 'Destroy', release, confirm: 'Are you sure?', method: :delete %></td>
@@ -24,4 +22,4 @@
 
 <br />
 
-<%= link_to 'New Release', new_release_path %>
+<%= link_to 'New Release', new_release_path, :class => "new_link" %>

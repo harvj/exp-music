@@ -11,7 +11,24 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120107004640) do
+ActiveRecord::Schema.define(:version => 20120118053828) do
+
+  create_table "album_artists", :force => true do |t|
+    t.boolean  "primary"
+    t.integer  "release_id"
+    t.integer  "artist_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "album_artists", ["artist_id"], :name => "index_album_artists_on_artist_id"
+  add_index "album_artists", ["release_id"], :name => "index_album_artists_on_release_id"
+
+  create_table "artists", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "recordings", :force => true do |t|
     t.string   "name"
@@ -19,6 +36,17 @@ ActiveRecord::Schema.define(:version => 20120107004640) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "release_tracks", :force => true do |t|
+    t.integer  "track_no"
+    t.integer  "release_id"
+    t.integer  "recording_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "release_tracks", ["recording_id"], :name => "index_release_tracks_on_recording_id"
+  add_index "release_tracks", ["release_id"], :name => "index_release_tracks_on_release_id"
 
   create_table "releases", :force => true do |t|
     t.string   "name"

@@ -1,4 +1,6 @@
 Muzik::Application.routes.draw do
+  resources :artists
+
   resources :releases
 
   resources :recordings

@@ -4,6 +4,7 @@ gem 'rails', '3.1.2'
 gem 'pg'
 gem 'jquery-rails'
 gem 'devise'
+gem 'bourbon'
 
 # Gems used only for assets and not required in production environments by default.
 group :assets do

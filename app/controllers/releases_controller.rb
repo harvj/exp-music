@@ -1,35 +1,14 @@
 class ReleasesController < ApplicationController
-  # GET /releases
-  # GET /releases.json
   def index
     @releases = Release.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @releases }
-    end
   end
 
-  # GET /releases/1
-  # GET /releases/1.json
   def show
     @release = Release.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @release }
-    end
   end
 
-  # GET /releases/new
-  # GET /releases/new.json
   def new
     @release = Release.new
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @release }
-    end
   end
 
   # GET /releases/1/edit

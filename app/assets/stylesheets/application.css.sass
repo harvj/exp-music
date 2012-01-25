@@ -3,31 +3,51 @@
 // the top of the compiled file, but it's generally better to create a new file per style scope.
 //= require_self
 
+@import 'bourbon'
 @import 'fonts'
 @import 'colors'
+@import 'mixins'
+@import 'scaffolds'
+
 
 body
   font-family: $helvetica
-  background: $dark-gray
-
-#page
-  width: 960px
-  margin: auto
-  padding: 10px
-  color: darken($white, 10%)
-
-#account-nav
-  float: right
+  font-size: 12px
+  background: $light-gray
+  background: url('bgrd.png')
 
 h1, h2, h3, h4, h5, h6
   margin-top: 0
 
+#full-page
+  width: 960px
+  min-height: 400px
+  margin: auto
+  padding: 10px
+  border-radius: 4px
+  background: #f8f8f8
+  color: $dark-gray
+  @include box-shadow(2px 2px 12px 3px #b2b2b2)
+
+#header
+  margin-left: 150px
+  height: 25px
+
+#account-nav
+  float: right
+
+#left-col
+  width: 128px
+  float: left
+
 #logo
-  height: 55px
+  margin-top: -10px
   vertical-align: center
-  background-image: url('muzik-logo.png')
   background-repeat: no-repeat
 
+#content
+  float: right
+  width: 810px
 a
   color: $like-green
   text-decoration: none
@@ -37,14 +57,17 @@ a:hover
 
 input
   &[type='text'], &[type='password'], &[type='email'], &[type='number']
-    background: lighten($dark-gray, 5%)
-    padding: 5px 15px
-    color: $white
+    background: lighten($dark-gray, 85%)
+    padding: 4px 5px
+    color: $charcoal
     border: 1px solid $like-green
     border-radius: 3px
+    @include box-shadow(inset 1px 1px 5px 1px #e5e5e5)
   &[type='submit']
+    @include button_remix($like-blue)
     margin-top: 5px
-    cursor: pointer
+    &:hover
+      @include box-shadow(1px 1px 5px 1px #ccc)
 
 #login-form
   width: 300px
@@ -54,8 +77,36 @@ input
     &[type='submit']
       width: auto
 
+form
+  label
+    padding-right: 5px
+
+#release_name
+  width: 300px
+#datepicker
+  width: 50px
+.release-date-field
+  padding-left: 30px
+  
+
 ul.navigation
   padding: 0
+  margin: 0
   list-style-type: none
   li
-    display: inline
+    @include button_remix($light-gray)
+    display: block
+    width: 80px
+    margin: auto
+    margin-bottom: 1px
+    &:hover
+      @include box-shadow(none)
+      a:hover
+        color: $like-green
+        text-decoration: none
+
+.actions
+  input[type='submit']
+    float: right
+
+@import 'jquery-ui'

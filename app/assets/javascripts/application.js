@@ -6,4 +6,16 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery_ui
+//= require jquery.tokeninput
 //= require_tree .
+
+$(function() {
+  $('#datepicker').datepicker({
+    changeMonth: true,
+    changeYear:  true,
+    yearRange: '1951:2011',
+    defaultDate: '+0',
+    maxDate: '+0'
+  });
+});
