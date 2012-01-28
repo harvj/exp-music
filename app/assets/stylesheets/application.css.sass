@@ -23,18 +23,29 @@ h1, h2, h3, h4, h5, h6
   width: 960px
   min-height: 400px
   margin: auto
-  padding: 10px
+  padding: 0 10px 10px 10px
   border-radius: 4px
   background: #f8f8f8
   color: $dark-gray
   @include box-shadow(2px 2px 12px 3px #b2b2b2)
 
 #header
-  margin-left: 150px
+  margin: 0 0 10px 150px
   height: 25px
 
 #account-nav
   float: right
+  padding-top: 10px
+#status
+  @include border-bottom-radius(5px)
+  width: 600px
+  padding: 5px 10px
+  background: $charcoal
+  @include linear-gradient(lighten($charcoal, 8%), $charcoal)
+  color: $light-gray
+  @include box-shadow(1px 1px 4px 1px #c8c8c8)
+  h3
+    margin: 0
 
 #left-col
   width: 128px
@@ -42,6 +53,7 @@ h1, h2, h3, h4, h5, h6
 
 #logo
   margin-top: -35px
+  padding-top: 10px
   vertical-align: center
   background-repeat: no-repeat
 

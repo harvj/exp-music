@@ -1,6 +1,6 @@
 class ArtistsController < ApplicationController
   def index
-    @artists = Artist.order(:name)
+    @artists = Artist.where("name ilike ?", "%#{params[:q]}%")
     respond_to do |format|
       format.html 
       format.json { render json: @artists.map(&:attributes) }
