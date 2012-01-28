@@ -15,11 +15,11 @@
     <div id="status"><h3><%= params[:action].titleize %> <%= params[:controller].titleize.singularize %></div>
   </div>
   <div id="left-col">
-    <div id="logo"><%= link_to image_tag("music-box-logo.png"), root_path %></div>
+    <div id="logo"><%= link_to image_tag("record-logo.png"), root_path %></div>
     <div id="site-nav">
       <ul class="navigation">
-        <li><%= link_to "Artists", artists_path %>
-        <li><%= link_to "Releases", releases_path %></li>
+        <li><%= tab_to "Artists", artists_path %></li>
+        <li><%= tab_to "Releases", releases_path %></li>
       </ul>
     </div>
   </div>

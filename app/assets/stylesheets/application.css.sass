@@ -91,26 +91,43 @@ form
 .release-date.field
   padding-left: 30px
   
-
+// Tabs
 ul.navigation
   padding: 0
   margin: 0
   list-style-type: none
   li
-    @include button_remix($light-gray)
     display: block
-    width: 80px
+    width: 100px
     margin: auto
     margin-bottom: 1px
+    a
+      @include button_remix($pale-yellow)
+      display: inline-block
+      width: 80%
+      color: $charcoal
     &:hover
       @include box-shadow(none)
       a:hover
-        color: $like-green
         text-decoration: none
-
+    .current-tab
+      @include linear-gradient(lighten($pale-yellow, 15%), lighten($pale-yellow, 10%))
+      @include border-radius(3px)
+      border: 1px solid $pale-yellow
+      display: inline-block
+      font-size: 11px
+      width: 100%
+      padding: 3px 5px
+      
 .actions
   input[type='submit']
     float: right
+
+.new-link
+  float: right
+  @include button_remix($like-green)
+  &:hover
+    color: white
 
 @import 'jquery-ui'
 @import 'token-input'

@@ -9,4 +9,10 @@ module ApplicationHelper
     end
   end
 
+  def tab_to(name, options = {})
+    link_to_unless_current(name, options) do
+      content_tag(:span, name, :class => "current-tab")
+    end
+  end
+
 end

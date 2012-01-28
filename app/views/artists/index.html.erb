@@ -1,13 +1,5 @@
-<h1>Listing artists</h1>
-
+<%= link_to 'New Artist', new_artist_path, :class => "new-link" %>
 <table>
-  <tr>
-    <th>Name</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
 <% @artists.each do |artist| %>
   <tr>
     <td><%= artist.name %></td>
@@ -17,7 +9,3 @@
   </tr>
 <% end %>
 </table>
-
-<br />
-
-<%= link_to 'New Artist', new_artist_path %>

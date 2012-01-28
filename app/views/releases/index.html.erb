@@ -1,14 +1,5 @@
-<h1>Listing releases</h1>
-
+<%= link_to 'New Release', new_release_path, :class => "new-link" %>
 <table>
-  <tr>
-    <th>Name</th>
-    <th>Release date</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
 <% @releases.each do |release| %>
   <tr>
     <td><%= release.name %></td>
@@ -19,7 +10,3 @@
   </tr>
 <% end %>
 </table>
-
-<br />
-
-<%= link_to 'New Release', new_release_path, :class => "new_link" %>
