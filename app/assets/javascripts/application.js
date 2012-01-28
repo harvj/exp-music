@@ -10,7 +10,9 @@
 //= require jquery.tokeninput
 //= require_tree .
 
-$(function() {
+$(document).ready(function() {
+
+  // jQuery UI datepicker
   $('#datepicker').datepicker({
     changeMonth: true,
     changeYear:  true,
@@ -18,4 +20,9 @@ $(function() {
     defaultDate: '+0',
     maxDate: '+0'
   });
+
+  $('#release_artist_tokens').tokenInput('/artists.json', {
+    crossDomain: false
+  });
+
 });
