@@ -1,4 +1,6 @@
 class ReleasesController < ApplicationController
+  before_filter :authenticate_user!
+
   def index
     @releases = Release.order(:name)
   end

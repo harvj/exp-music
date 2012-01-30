@@ -82,10 +82,11 @@ input
       @include box-shadow(1px 1px 5px 1px #ccc)
 
 #login-form
-  width: 300px
-  margin: auto
   input
-    width: 250px
+    width: 200px
+    display: block
+    &[type='checkbox']
+      display: inline-block
     &[type='submit']
       width: auto
 

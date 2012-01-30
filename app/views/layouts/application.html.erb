@@ -16,12 +16,14 @@
   </div>
   <div id="left-col">
     <div id="logo"><%= link_to image_tag("record-logo.png"), root_path %></div>
-    <div id="site-nav">
-      <ul class="navigation">
-        <li><%= tab_to "Artists", artists_path %></li>
-        <li><%= tab_to "Releases", releases_path %></li>
-      </ul>
-    </div>
+    <% if user_signed_in? %>
+      <div id="site-nav">
+        <ul class="navigation">
+          <li><%= tab_to "Artists", artists_path %></li>
+          <li><%= tab_to "Releases", releases_path %></li>
+        </ul>
+      </div>
+    <% end %>
   </div>
 
   <div id="content">

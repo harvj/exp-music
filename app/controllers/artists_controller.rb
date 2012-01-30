@@ -1,4 +1,6 @@
 class ArtistsController < ApplicationController
+  before_filter :authenticate_user!
+
   def index
     @artists = Artist.where("name ilike ?", "%#{params[:q]}%")
     respond_to do |format|
