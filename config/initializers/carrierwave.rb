@@ -3,7 +3,7 @@ CarrierWave.configure do |config|
     :provider               => "AWS",
     :aws_access_key_id      => "AKIAIXJUMXD6CMQ6NPYA",
     :aws_secret_access_key  => "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"
-    #:region                 => "Oregon"
+    :region                 => "us-west-2"
   }
   config.fog_directory = 'album-artwork'
 end
