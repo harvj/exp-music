@@ -16,9 +16,8 @@ $(document).ready(function() {
   $('#datepicker').datepicker({
     changeMonth: true,
     changeYear:  true,
-    yearRange: '1951:2011',
-    defaultDate: '+0',
-    maxDate: '+0'
+    dateFormat: 'yy-mm-dd',
+    yearRange: '1951:2012'
   });
 
   $('#release_artist_tokens').tokenInput('/artists.json', {

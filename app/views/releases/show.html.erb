@@ -1,20 +1,12 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Name:</b>
-  <%= @release.name %>
-</p>
+<h2><%= @release.name %></h2>
+<p>by</p>
+<h3><%= @release.artists[0].name %></h3>
 
 <p>
   <b>Release date:</b>
-  <%= @release.release_date %>
+  <%= @release.release_date.strftime("%A, %B %e, %Y") %>
 </p>
-
-<p>
-  <b>Recording date:</b>
-  <%= @release.recording_date %>
-</p>
-
-
 <%= link_to 'Edit', edit_release_path(@release) %> |
 <%= link_to 'Back', releases_path %>

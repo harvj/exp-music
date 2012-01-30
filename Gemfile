@@ -2,9 +2,14 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.2'
 gem 'pg'
+#gem 'hobo_fields'
+
 gem 'jquery-rails'
 gem 'devise'
 gem 'bourbon'
+
+gem 'carrierwave'
+gem 'fog'
 
 # Gems used only for assets and not required in production environments by default.
 group :assets do

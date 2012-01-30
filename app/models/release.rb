@@ -1,6 +1,8 @@
 class Release < ActiveRecord::Base
-  validates_presence_of :name
-  attr_accessible :name, :artist_tokens, :release_date
+  validates_presence_of :name, :release_date
+  attr_accessible :name, :artist_tokens, :release_date, :album_art
+
+  mount_uploader :album_art, AlbumArtUploader
 
   # Artist Associations
   has_many :artists, :through => :album_artists
