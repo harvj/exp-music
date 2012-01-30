@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
-
-<h2><%= @release.name %></h2>
-<p>by</p>
-<h3><%= @release.artists[0].name %></h3>
+  <%= image_tag @release.album_art_url(:thumb).to_s, :class => "show-art" %>
+  <h2><%= @release.name %></h2>
+  <span>by</span>
+  <h3><%= @release.artists[0].name %></h3>
 
 <p>
   <b>Release date:</b>

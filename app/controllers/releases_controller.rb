@@ -11,15 +11,13 @@ class ReleasesController < ApplicationController
 
   def new
     @release = Release.new
+    @artist = @release.artists.build
   end
 
-  # GET /releases/1/edit
   def edit
     @release = Release.find(params[:id])
   end
 
-  # POST /releases
-  # POST /releases.json
   def create
     @release = Release.new(params[:release])
 
@@ -34,8 +32,6 @@ class ReleasesController < ApplicationController
     end
   end
 
-  # PUT /releases/1
-  # PUT /releases/1.json
   def update
     @release = Release.find(params[:id])
 
@@ -50,8 +46,6 @@ class ReleasesController < ApplicationController
     end
   end
 
-  # DELETE /releases/1
-  # DELETE /releases/1.json
   def destroy
     @release = Release.find(params[:id])
     @release.destroy

@@ -11,8 +11,8 @@
 <div id="full-page" class="<%= params[:controller] %>-<%= params[:action] %>">
 
   <div id="header">
-    <div id="account-nav"><%= account_nav.html_safe %></div>
-    <div id="status"><h3><%= params[:action].titleize %> <%= params[:controller].titleize.singularize %></div>
+    <span id="account-nav"><%= account_nav.html_safe %></span>
+    <span id="status"><h3><%= params[:action].titleize %> <%= params[:controller].titleize.singularize %></span>
   </div>
   <div id="left-col">
     <div id="logo"><%= link_to image_tag("record-logo.png"), root_path %></div>

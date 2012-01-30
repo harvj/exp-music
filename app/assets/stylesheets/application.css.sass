@@ -23,27 +23,26 @@ h1, h2, h3, h4, h5, h6
   width: 960px
   min-height: 400px
   margin: auto
-  padding: 0 10px 10px 10px
-  border-radius: 4px
+  padding: 0 0 10px 10px
+  @include border-radius(4px)
   background: #f8f8f8
   color: $dark-gray
   @include box-shadow(2px 2px 12px 3px #b2b2b2)
 
 #header
-  margin: 0 0 10px 150px
-  height: 25px
-
-#account-nav
-  float: right
-  padding-top: 10px
-#status
-  @include border-bottom-radius(5px)
-  width: 600px
-  padding: 5px 10px
+  @include border-bottom-left-radius(5px)
+  @include border-bottom-right-radius(2px)
+  @include border-top-right-radius(4px)
+  @include border-top-left-radius(2px)
   background: $charcoal
   @include linear-gradient(lighten($charcoal, 8%), $charcoal)
   color: $light-gray
-  @include box-shadow(1px 1px 4px 1px #c8c8c8)
+  @include box-shadow(1px 2px 4px 1px #c8c8c8)
+  margin-left: 130px
+  padding: 5px 10px
+#account-nav
+  float: right
+#status
   h3
     margin: 0
 
@@ -60,6 +59,8 @@ h1, h2, h3, h4, h5, h6
 #content
   float: right
   width: 810px
+  padding-right: 10px
+  margin-top: 10px
 a
   color: $like-green
   text-decoration: none
@@ -91,11 +92,16 @@ input
       width: auto
 
 form
+  margin-top: 0
   label
     padding-right: 5px
   .field
     display: inline-block
     margin-top: 5px
+  .actions
+    margin-top: 0
+    input[type='submit']
+      float: right
 
 #release_name
   width: 300px
@@ -131,16 +137,26 @@ ul.navigation
       font-size: 11px
       width: 100%
       padding: 3px 5px
-      
-.actions
-  input[type='submit']
-    float: right
 
 .new-link
   float: right
   @include button_remix($like-green)
   &:hover
     color: white
+
+table.releases
+  td
+    padding: 0 1px
+
+
+.releases-show
+  .show-art
+    display: block
+    margin-right: 10px
+    float: left
+  h2, h3
+    display: inline
+
 
 @import 'jquery-ui'
 @import 'token-input'
