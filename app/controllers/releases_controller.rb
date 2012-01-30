@@ -2,7 +2,7 @@ class ReleasesController < ApplicationController
   before_filter :authenticate_user!
 
   def index
-    @releases = Release.order(:name)
+    @releases = Release.order("release_date desc")
   end
 
   def show
