@@ -2,6 +2,7 @@
 <table>
 <% @releases.each do |release| %>
   <tr>
+    <td><%= image_tag release.album_art_url(:icon).to_s %></td>
     <td><%= release.name %></td>
     <td><%= release.release_date %></td>
     <td><%= link_to 'Show', release %></td>
