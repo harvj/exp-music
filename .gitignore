@@ -15,3 +15,6 @@
 /tmp
 
 /config/database.yml
+
+# Ignore images "uploaded" to the public directory
+/public/uploads
