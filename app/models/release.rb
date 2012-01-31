@@ -1,6 +1,7 @@
 class Release < ActiveRecord::Base
   validates_presence_of :name, :release_date
-  attr_accessible :name, :artist_tokens, :release_date, :album_art, :artists_attributes
+  attr_accessible :name, :artist_tokens, :release_date, :album_art, 
+                  :artists_attributes, :release_tracks_attributes, :recordings_attributes
 
   mount_uploader :album_art, AlbumArtUploader
 
@@ -19,7 +20,10 @@ class Release < ActiveRecord::Base
 
   # Recording Associations
   has_many :recordings, :through => :release_tracks
-  has_many :release_tracks, :dependent => :destroy
   accepts_nested_attributes_for :recordings, :reject_if => lambda { |r| r[:name].blank? }
+  
+  has_many :release_tracks, :dependent => :destroy
+  accepts_nested_attributes_for :release_tracks, :reject_if => lambda { |r| r[:track_no].blank? }
+  
 
 end

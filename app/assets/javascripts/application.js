@@ -22,7 +22,8 @@ $(document).ready(function() {
 
   $('#release_artist_tokens').tokenInput('/artists.json', {
     crossDomain: false,
-    hintText: "Look up an Artist..."
+    hintText: "Look up an Artist...",
+    prePopulate: $('#release_artist_tokens').data('pre')
   });
 
 });

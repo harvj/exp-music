@@ -8,5 +8,19 @@
   <b>Release date:</b>
   <%= @release.release_date.strftime("%A, %B %e, %Y") %>
 </p>
+
+<table id="show-release-tracks-table">
+  <tbody>
+    <% for r in @release.release_tracks %>
+    <tr>
+      <td><%= r.track_no %></td>
+      <td><%= r.recording.name %></td>
+      <td><%= r.recording.time %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>     
+
+
 <%= link_to 'Edit', edit_release_path(@release) %> |
 <%= link_to 'Back', releases_path %>

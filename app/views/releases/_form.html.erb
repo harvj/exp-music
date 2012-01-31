@@ -21,16 +21,50 @@
   <span class="release-date field">
     <%= f.label :release_date %><%= f.text_field :release_date, :id => "datepicker" %>
   </span><br>
+  
+  <% if @release.artists[0].name.blank? %>
   <%= f.fields_for :artists do |artist_form| %>
-  <span class="new-artist field">
-    <%= artist_form.label :name, "or New Artist" %>
-    <%= artist_form.text_field :name %>
-  </span><br>
+    <span class="new-artist field">
+      <%= artist_form.label :name, "or New Artist" %>
+      <%= artist_form.text_field :name %>
+    </span><br>
   <% end %>
+  <% end %>
+  
   <span class="name field">
     <%= f.label :name, "Title" %><%= f.text_field :name %>
   </span><br>
   <span class="album-art field">
     <%= f.label :album_art %><%= f.file_field :album_art %>
   </span>
+  
+  <table id="new-recordings-table">
+    <thead>
+    <tr>
+      <td>No.</td>
+      <td>Name</td>
+      <td>Length</td>
+    </tr>
+    </thead>
+    <tbody>
+  <%= f.fields_for :release_tracks do |release_track_form| %>
+    <tr>
+    <td class="new-track-no field">
+      <%= release_track_form.text_field :track_no %>
+    </td>
+  
+
+    <%= release_track_form.fields_for :recording do |recording_form| %>
+      <td class="new-recording field">
+        <%= recording_form.text_field :name %>
+      </td>
+      <td class="new-recording-length field">
+        <%= recording_form.text_field :length %>
+      </td>
+    <% end %>
+    </tr>
+</tbody>
+  <% end %>
+</table>
+
 <% end %>

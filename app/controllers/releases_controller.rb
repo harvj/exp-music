@@ -12,10 +12,16 @@ class ReleasesController < ApplicationController
   def new
     @release = Release.new
     @artist = @release.artists.build
+    20.times do
+      track = @release.release_tracks.build(:recording => Recording.new)
+    end
   end
 
   def edit
     @release = Release.find(params[:id])
+    (20 - @release.release_tracks.length).times do
+      track = @release.release_tracks.build(:recording => Recording.new)
+    end
   end
 
   def create
