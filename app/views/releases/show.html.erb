@@ -6,7 +6,7 @@
 
 <p>
   <b>Release date:</b>
-  <%= @release.release_date.strftime("%A, %B %e, %Y") %>
+  <%= @release.release_date.strftime("%A, %B %e, %Y") unless @release.release_date.nil?%>
 </p>
 <p>
   <strong><%= @release.recordings.length %> tracks</strong> | <%= @release.length_in_text %>
@@ -14,7 +14,7 @@
 
 <table id="show-release-tracks-table">
   <tbody>
-    <% for r in @release.release_tracks %>
+    <% for r in @release.release_tracks.order(:track_no) %>
     <tr>
       <td><%= r.track_no %>.</td>
       <td><%= r.recording.name %></td>

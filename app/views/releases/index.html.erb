@@ -5,9 +5,11 @@
     <td class="artist"><%= release.artists[0].name %></td>
     <td><%= link_to(image_tag(release.album_art_url(:icon).to_s), release) %></td>
     <td><%= release.name %></td>
+    <% unless release.release_date.nil? %>
     <td><%= release.release_date.year %></td>
     <td><%= release.release_date.strftime("%b") %></td>
     <td><%= release.release_date.strftime("%e") %></td>
+    <% end %>
     <td><%= link_to 'Edit', edit_release_path(release) %></td>
     <td><%= link_to 'Destroy', release, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
