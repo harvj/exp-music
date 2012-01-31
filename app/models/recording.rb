@@ -7,10 +7,14 @@ class Recording < ActiveRecord::Base
 
   def time
     unless length.nil?
-      mm, ss = length.divmod(60) 
-      "%d:%d" % [mm, ss]
+      mm, ss = length.divmod(60)
+      if ss < 10
+        "%d:0%d" % [mm, ss]
+      else
+        "%d:%d" % [mm, ss]
+      end
     else
-      return "--"
+      return "--:--"
     end
   end
 

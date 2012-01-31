@@ -25,5 +25,21 @@ class Release < ActiveRecord::Base
   has_many :release_tracks, :dependent => :destroy
   accepts_nested_attributes_for :release_tracks, :reject_if => lambda { |r| r[:track_no].blank? }
   
+  def length
+    sum = 0
+    self.recordings.each do |r|
+      sum += r.length unless r.length.nil?
+    end
+    sum
+  end
 
+  def length_in_text
+    mm, ss = self.length.divmod(60)
+    hh, mm = mm.divmod(60)
+    if hh > 0
+      "%d hour, %d minutes and %d seconds" % [hh, mm, ss]
+    else
+      "%d minutes, %d seconds" % [mm, ss]
+    end
+  end
 end

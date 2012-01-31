@@ -8,12 +8,15 @@
   <b>Release date:</b>
   <%= @release.release_date.strftime("%A, %B %e, %Y") %>
 </p>
+<p>
+  <strong><%= @release.recordings.length %> tracks</strong> | <%= @release.length_in_text %>
+</p>
 
 <table id="show-release-tracks-table">
   <tbody>
     <% for r in @release.release_tracks %>
     <tr>
-      <td><%= r.track_no %></td>
+      <td><%= r.track_no %>.</td>
       <td><%= r.recording.name %></td>
       <td><%= r.recording.time %></td>
     </tr>
