@@ -21,6 +21,7 @@ CSV.foreach("#{Rails.root}/db/output.csv") do |row|
   @given_genre = row[3]
   @given_length = row[4]
   @given_no = row[5]
+  @given_date = row[6]
 
   unless @genre = Genre.find_by_name(@given_genre)
     @genre = Genre.create!(:name => @given_genre)
@@ -37,7 +38,7 @@ CSV.foreach("#{Rails.root}/db/output.csv") do |row|
   end
 
   @release.artists << @artist
-  @release.update_attributes(:genre_id => @genre.id)
+  @release.update_attributes(:genre_id => @genre.id, :release_date => @given_date)
 
   @recording = Recording.create!(:name => @given_name, :length => @given_length.to_i)
   @release.recordings << @recording
