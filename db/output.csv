@@ -4585,25 +4585,25 @@ Frida Kahlo,Rachels',Handwriting,Instrumental,118,4
 Seratonin,Rachels',Handwriting,Instrumental,217,5
 Full On Night,Rachels',Handwriting,Instrumental,875,6
 Handwriting,Rachels',Handwriting,Instrumental,110,7
-Moscow Is in the Telephone,Rachels',Systems/Layers ,Instrumental,239,1
-Water From the Same Source,Rachels',Systems/Layers ,Instrumental,378,2
-systems/layers,Rachels',Systems/Layers ,Instrumental,191,3
-Expect Delays,Rachels',Systems/Layers ,Instrumental,237,4
-Arterial,Rachels',Systems/Layers ,Instrumental,105,5
-even/odd,Rachels',Systems/Layers ,Instrumental,194,6
-Wouldn't Live Anywhere Else,Rachels',Systems/Layers ,Instrumental,167,7
-Esperanza,Rachels',Systems/Layers ,Instrumental,332,8
-Packet Switching,Rachels',Systems/Layers ,Instrumental,70,9
-where_have_all_my_files_gone?,Rachels',Systems/Layers ,Instrumental,169,10
-Reflective Surfaces,Rachels',Systems/Layers ,Instrumental,120,11
-Unclear Channel,Rachels',Systems/Layers ,Instrumental,167,12
-Last Things Last,Rachels',Systems/Layers ,Instrumental,213,13
-Anytime Soon,Rachels',Systems/Layers ,Instrumental,138,14
-Air Conditioning/a closed feel,Rachels',Systems/Layers ,Instrumental,219,15
-Singing Bridge,Rachels',Systems/Layers ,Instrumental,133,16
-And Keep Smiling,Rachels',Systems/Layers ,Instrumental,158,17
-4 or 5 Trees,Rachels',Systems/Layers ,Instrumental,365,18
-NY Snow Globe,Rachels',Systems/Layers ,Instrumental,148,19
+Moscow Is in the Telephone,Rachels',Systems-Layers ,Instrumental,239,1
+Water From the Same Source,Rachels',Systems-Layers ,Instrumental,378,2
+systems/layers,Rachels',Systems-Layers ,Instrumental,191,3
+Expect Delays,Rachels',Systems-Layers ,Instrumental,237,4
+Arterial,Rachels',Systems-Layers ,Instrumental,105,5
+even/odd,Rachels',Systems-Layers ,Instrumental,194,6
+Wouldn't Live Anywhere Else,Rachels',Systems-Layers ,Instrumental,167,7
+Esperanza,Rachels',Systems-Layers ,Instrumental,332,8
+Packet Switching,Rachels',Systems-Layers ,Instrumental,70,9
+where_have_all_my_files_gone?,Rachels',Systems-Layers ,Instrumental,169,10
+Reflective Surfaces,Rachels',Systems-Layers ,Instrumental,120,11
+Unclear Channel,Rachels',Systems-Layers ,Instrumental,167,12
+Last Things Last,Rachels',Systems-Layers ,Instrumental,213,13
+Anytime Soon,Rachels',Systems-Layers ,Instrumental,138,14
+Air Conditioning-a closed feel,Rachels',Systems-Layers ,Instrumental,219,15
+Singing Bridge,Rachels',Systems-Layers ,Instrumental,133,16
+And Keep Smiling,Rachels',Systems-Layers ,Instrumental,158,17
+4 or 5 Trees,Rachels',Systems-Layers ,Instrumental,365,18
+NY Snow Globe,Rachels',Systems-Layers ,Instrumental,148,19
 Packt Like Sardines In A Crush,Radiohead,Amnesiac,Alternative,239,1
 Pyramid Song,Radiohead,Amnesiac,Alternative,289,2
 Pulk-Pull revolving doors,Radiohead,Amnesiac,Alternative,247,3
@@ -6839,7 +6839,6 @@ Speechless,Lady Gaga,The Fame Monster,Pop,271,4
 Telephone ft. Beyonce,Lady Gaga,The Fame Monster,Pop,221,6
 So Happy I Could Die,Lady Gaga,The Fame Monster,Pop,235,7
 Teeth,Lady Gaga,The Fame Monster,Pop,221,8
-Sinatra 1,Tekpub Screencast,1677
 "William, It Was Really Nothing",The Smiths,Louder Than Bombs,Alternative,132,10
 Nefertiti,Miles Davis,Nefertiti,Jazz,475,1
 Fall,Miles Davis,Nefertiti,Jazz,399,2
@@ -6976,31 +6975,6 @@ Do You Really,Wu-Tang Clan,The W,Hip-Hop,322,10
 The Monument,Wu-Tang Clan,The W,Hip-Hop,158,11
 Gravel Pit,Wu-Tang Clan,The W,Hip-Hop,291,12
 Jah World,Wu-Tang Clan,The W,Hip-Hop,457,13
-"Episode 0.5.2 - Serve, RadiantCMS, Prototyping, and Design with John Long",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3749
-"Passenger 3.0.5, jQuery, RSpec, and more",hi@rubyshow.com (The Ruby Show),The Ruby Show,Podcast,1911,157
-Episode 257: Request Specs and Capybara,Ryan Bates,Railscasts,Podcast,797
-Episode 251: MetaWhere & MetaSearch,Ryan Bates,Railscasts,Podcast,509
-Episode 0.0.1 - Haml Sass and Compass,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3582
-California Gurls,Katy Perry & Snoop Dogg,California Gurls,Pop,236,1
-Episode 258: Token Fields,Ryan Bates,Railscasts,Podcast,669
-Episode 0.5.3 - Formalize and News Roundup Design Edition with Nathan Smith,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2991
-"JRuby 1.6.0, Ruby stats, memes, and more",hi@rubyshow.com (The Ruby Show),The Ruby Show,Podcast,2166,158
-Episode 259: Decent Exposure,Ryan Bates,Railscasts,Podcast,596
-"Episode 0.5.4 - CouchBase, Erlang, and Mergers with J Chris Anderson",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2720
-Episode 260: Messaging with Faye,Ryan Bates,Railscasts,Podcast,822
-Episode 254: Pagination with Kaminari,Ryan Bates,Railscasts,Podcast,502
-Episode 0.4.2 - Rails 3.1 and SproutCore with Yehuda Katz,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3397
-"Episode 0.4.4 - Ruby 1.9, Nokogiri, and tender lovemaking with Aaron Patterson",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2045
-"Episode 0.5.5 - Goliath, Event Machine, and SPDY with Ilya Grigorik",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3031
-RSpec vs TestUnit,hi@rubyshow.com (The Ruby Show),The Ruby Show,Podcast,2068,159
-Episode 261: Testing JavaScript with Jasmine,Ryan Bates,Railscasts,Podcast,920
-"Episode 0.5.6 - Vim with Drew Neil, Tim Pope, and Yehuda Katz",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2516
-"Pow, async sinatra, and more!",hi@rubyshow.com (The Ruby Show),The Ruby Show,Podcast,2264,160
-Coffeescript,hi@rubyshow.com (The Ruby Show),The Ruby Show,Podcast,1948,161
-Episode 263: Client Side Validations,Ryan Bates,Railscasts,Podcast,522
-Episode 0.5.7 - Amplify.js with Mike Hostetler and Scott González from AppendTo,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2703
-"jQuery, CoffeeScript, Rails 3.1 and more",hi@rubyshow.com (The Ruby Show),The Ruby Show,Podcast,1850,162
-Episode 264: Guard,Ryan Bates,Railscasts,Podcast,524
 Fashion Bleeds,Archers of Loaf,White Trash Heroes,Alternative,237,1
 Dead Red Eyes,Archers of Loaf,White Trash Heroes,Alternative,241,2
 I.N.S.,Archers of Loaf,White Trash Heroes,Alternative,175,3
@@ -7335,10 +7309,6 @@ It's Ok (It's Alright),Fine Young Cannibals,The Raw & The Cooked,Pop,213,7
 Don't Let It Get You Down,Fine Young Cannibals,The Raw & The Cooked,Pop,204,8
 As Hard As It Is,Fine Young Cannibals,The Raw & The Cooked,Pop,194,9
 Ever Fallen In Love?,Fine Young Cannibals,The Raw & The Cooked,Pop,234,10
-#268 Sass Basics,Ryan Bates,RailsCasts,Podcast,787
-#269 Template Inheritance,Ryan Bates,RailsCasts,Podcast,528
-#134 Paperclip,Ryan Bates,Railscasts,Podcast,466
-#270 Authentication in Rails 3.1,Ryan Bates,RailsCasts,Podcast,428
 After the Internationals,Brokeback,Field Recordings From The Cook County Water Table,Instrumental,309,1
 Returns to the Orange Grove,Brokeback,Field Recordings From The Cook County Water Table,Instrumental,256,2
 The Field Code,Brokeback,Field Recordings From The Cook County Water Table,Instrumental,274,3
@@ -7383,36 +7353,6 @@ Andy Warhol,David Bowie,Hunky Dory,Rock,237,8
 Song For Bob Dylan,David Bowie,Hunky Dory,Rock,252,9
 Queen Bitch,David Bowie,Hunky Dory,Rock,199,10
 The Bewlay Brothers,David Bowie,Hunky Dory,Rock,323,11
-Isn't She Lovely (edit),Stevie Wonder,Songs in the Key of Life,Soul,155,13
-Lizstomania (wedding),Wedding,238
-Melt With You (wedding),Wedding,246
-You Send Me (wedding),Wedding,161
-California Girls (wedding),Wedding,150
-Groove Is In The Heart (wedding),Wedding,219
-The Way You Look Tonight (wedding),Wedding,202
-Your Mama Don't Dance (wedding),Wedding,166
-Kids (wedding),Wedding,295
-Bizarre Love Triangle (wedding),Wedding,259
-At Your Best You Are Love,Aaliyah,Age Ain't Nothing But a Number,Soul,291,6
-I'm Happy Just to Dance With You,The Beatles,A Hard Day's Night,Rock,116,4
-Bust A Move (wedding),Wedding,265
-Kiss (wedding),Wedding,218
-Baby,Justin Bieber & Ludacris,My World 2.0 (Bonus Track Version),Pop,214,1
-Danger! High Voltage,Electric Six,Fire,Alternative,230,4
-Danger! High Voltage (wedding),Electric Six,Fire,230,4
-The Way You Make Me Feel (wedding),Wedding,290
-Looking Glass (wedding),Wedding,295
-Brown Eyed Girl (wedding),Wedding,183
-Baby (wedding),Wedding,212
-Pump Up the Jam (wedding),Wedding,Pop,320,1
-Into the Groove (wedding),Madonna,The Immaculate Collection,Pop,243,7
-I Should Have Known Better (wedding),The Beatles,The Beatles Again,Rock,160,2
-#271 Resque,Ryan Bates,RailsCasts,Podcast,744
-#272 Markdown with Redcarpet,Ryan Bates,RailsCasts,Podcast,408
-#273 Geocoder,Ryan Bates,RailsCasts,Podcast,492
-#274 Remember Me & Reset Password,Ryan Bates,RailsCasts,Podcast,734
-Lecture 24: Course overview; what do computer scientists do?,"Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,2567,24
-"Lecture 01: Goals of the course; what is computation; introduction to data types, operators, and variables","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,3210,1
 Divided,Deaf Center,Owl Splinters,Instrumental,263,1
 Time Spent,Deaf Center,Owl Splinters,Instrumental,130,2
 New Beginning (Tidal Darkness),Deaf Center,Owl Splinters,Instrumental,378,3
@@ -7428,93 +7368,6 @@ Skeleton Dance,"Aidan Baker, Tim Hecker",Fantasma Parastasie,Electronic,182,4
 Gallery of the Invisible Woman,"Aidan Baker, Tim Hecker",Fantasma Parastasie,Electronic,438,5
 Dream of the Nightmare,"Aidan Baker, Tim Hecker",Fantasma Parastasie,Electronic,260,6
 Fantasma-Parastasie,"Aidan Baker, Tim Hecker",Fantasma Parastasie,Electronic,291,7
-Episode 0.0.2 - First weekly show,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1289
-Episode 0.0.3 - Google's Go Programming Language,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1301
-"Episode 0.0.4 - Chrome OS, Thor, and ROaR (30:34)",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1834
-Episode 0.0.5 - DocumentCloud,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2151
-Episode 0.0.6 - Steven Bristol from LessEverything and weekly news,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2797
-Episode 0.0.7 - Mike Dirolf from 10gen and MongoDB,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2485
-Episode 0.0.8 - Marshall Culpepper from Appcelerator Titanium,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3144
-"Episode 0.0.9 - Fix-me, Configliere, and more Node.js",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1299
-Episode 0.1.0 - Chris Wanstrath from GitHub,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,4675
-"Episode 0.1.1 - John Nunemaker from Ordered List, Rails Tips, and MongoMapper",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2116
-Episode 0.1.2 - Gordon is such a Showoff,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2312
-Episode 0.1.3 - Civic hacking with Luigi Montanez and Jeremy Carbaugh from Sunlight Labs,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3720
-Episode 0.1.4 - Andy Gross and Sean Cribbs on Riak,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3780
-"Episode 0.1.5 - Leah Culver on OAuth, Hurl.it, Baconfile, and more",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2783
-Episode 0.1.6 - Ajax.org frameworks with Ruben Daniels and Rik Arends,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2640
-"Episode 0.1.7 - Open Source publishing with Geoffrey Grosenbach, Brandon Mathis, and Tim Caswell",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3004
-Episode 0.1.8 - NoSQL Smackdown!,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2873
-"Episode 0.1.9 - James Edward Gray II on Ruby, TextMate, and Red Dirt Ruby Conf",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1514
-Episode 0.2.0 - Node.js with Felix Geisendörfer,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2578
-Episode 0.2.1 - Tweets from Chirp,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1167
-Episode 0.2.2 - Sammy.js with Aaron Quint,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2669
-Episode 0.2.3 - The Ruby Racer with Charles Lowell,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1298
-"Episode 0.2.4 - Facebook Open Source projects: Tornado, Hip-hop, and Three20",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2353
-Episode 0.2.5 - RaphaelJS with Dmitry Baranovskiy,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1959
-Episode 0.2.6 - Douglas Crockford on JSON and JavaScript from TXJS,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,898
-Episode 0.2.7 - Padrino - Sinatra based Ruby web framework,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1917
-Episode 0.2.8 - Mobile web development with John Resig,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1452
-Episode 0.2.9 - CoffeeScript with Jeremy Ashkenas,Wynn Netherland and Micheil Smith,The Changelog,Podcast,2290
-Episode 0.3.0 - Sencha Touch with David Kaneda,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1505
-Episode 0.3.1 - Websockets,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1723
-Episode 0.3.2 - 960.gs with Nathan Smith,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2037
-Episode 0.3.3 - Node Knockout,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1442
-"Episode 0.3.4 - Mongrel2, guitar, and more with Zed Shaw",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2308
-Episode 0.3.5 - Homebrew with Max Howell,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1968
-Episode 0.3.6 - Django Dash,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1641
-The Changelog Archive 20100930 - News roundup,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2717
-Episode 0.3.7 - PubSubHubBub with Superfeedr's Julien Genestoux,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1826
-Episode 0.3.8 - DevOps and Chef with Corey Donahoe from GitHub and Seth Chisamore from Opscode,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2203
-"Episode 0.3.9 - Scripty2, Zepto.js, Vapor.js, and more with Thomas Fuchs",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3046
-"Episode 0.4.0 - Riak revisited with Andy Gross, Mark Phillips, and John Nunemaker",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2260
-The Changelog Archive 20101031 - News roundup,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2932
-Episode 0.4.1 - Telephony with Chris Matthieu,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2710
-Episode 0.4.3 - Hackety Hack! with Steve Klabnik,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1913
-Episode 0.4.5 - Redis with Salvatore Sanfilippo,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2398
-"Episode 0.4.6 - YUI 3, Node.js, JSLint, and Douglas Crockford code reviews",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1897
-Episode 0.4.7 - Open Government and the Citizen Coder with Carl Tashian,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1959
-Episode 0.4.8 - Jenkins (formerly Hudson) with Kohsuke Kawaguchi and Andrew Bayer,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2374
-"Episode 0.4.9 - Git, Showoff, and XBox Kinect with Scott Chacon",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3235
-"Episode 0.5.0 - Ruby, Rails, and the Cloud with Dr. Nic from Engine Yard",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2586
-"Episode 0.5.1 - MongoDB, NoSQL, and Web Scale with Eliot Horowitz",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2125
-Episode 0.6.6 - RVM and BDSM with Wayne Seguin,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3451
-Episode 0.5.9 - Ruby gems with Nick Quaranto,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1181
-Episode 0.6.0 - Fog and The Cloud with Wesley Beary,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1322
-Episode 0.6.1 - Oh my zsh! with Robby Russell,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3048
-Episode 0.6.2 - IronJS with Fredrik Holmström,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1907
-Episode 0.6.3 - CDNJS with Thomas Davis and Ryan Kirkman,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2263
-"Episode 0.6.4 - Pow, Rails 3.1 Asset Pipeline, Cinco, CoffeeScript, and more with Sam Stephenson",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3745
-Episode 0.6.5 - Code for America with Erik Michaels-Ober and Max Ogden,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3624
-Lecture 23: Stock market simulation,"Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,3070,23
-"Lecture 22: Normal, uniform, and exponential distributions; misuse of statistics","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,3049,22
-"Lecture 21: Validating simulation results, curve fitting, linear regression","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,3227,21
-"Lecture 20: Monte Carlo simulations, estimating pi","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,2874,20
-"Lecture 19: Biased random walks, distributions","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,2993,19
-Lecture 17: Computational models: random walk simulation,"Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,2963,17
-"Lecture 15: Abstract data types, classes and methods","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,3024,15
-"Lecture 14: Analysis of knapsack problem, introduction to object-oriented programming","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,3034,14
-"Lecture 12: More about debugging, knapsack problem, introduction to dynamic programming","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,2987,12
-Lecture 11: Testing and debugging,"Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,2939,11
-"Lecture 10: Divide and conquer methods, merge sort, exceptions","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,2778,10
-"Lecture 09: Binary search, bubble and selection sorts","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,2850,9
-"Lecture 08: Complexity; log, linear, quadratic, exponential algorithms","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,3003,8
-"Lecture 07: Lists and mutability, dictionaries, pseudocode, introduction to efficiency","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,2782,7
-"Lecture 06: Bisection methods, Newton/Raphson, introduction to lists","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,3011,6
-"Lecture 05: Floating point numbers, successive refinement, finding roots","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,2652,5
-Lecture 04: Decomposition and abstraction through functions; introduction to recursion,"Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,3087,4
-Lecture 03: Common code patterns: iterative programs,"Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,3059,3
-"Lecture 02: Operators and operands; statements; branching, conditionals, and iteration","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,3049,2
-"Rails 3.0.10, Rubycraft, Rubyems 1.8.7",hi@rubyshow.com (The Ruby Show),The Ruby Show,Podcast,2448,177
-#278 Search with Sunspot,Ryan Bates,RailsCasts,Podcast,622
-"Lecture 13: Dynamic programming: overlapping subproblems, optimal substructure","Eric Grimson, John Guttag",Introduction to Computer Science and Programming,iTunes U,2935,13
-#279 Understanding the Asset Pipeline,Ryan Bates,RailsCasts,Podcast,683
-"Rails 3.0.10, Rails 2.3.14, Rails 3.1.0.rc6",hi@rubyshow.com (The Ruby Show),The Ruby Show,Podcast,2328,178
-#262 Trees with Ancestry,Ryan Bates,Railscasts,Podcast,579
-"Episode 0.6.7 - HTML5 Boilerplate, Modernizr, and more with Paul Irish",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,3454
-#280 Pry with Rails,Ryan Bates,RailsCasts,Podcast,489
-"RubyShift, IE9, Letters from _why, and more",hi@rubyshow.com (The Ruby Show),The Ruby Show,Podcast,2188,179
-#281 Foreman,Ryan Bates,RailsCasts,Podcast,261
 World's Famous Intro,The Beatnuts,Intoxicated Demons,Hip-Hop,61,1
 World's Famous,The Beatnuts,Intoxicated Demons,Hip-Hop,204,2
 Engineer Talking,The Beatnuts,Intoxicated Demons,Hip-Hop,51,3
@@ -7537,12 +7390,6 @@ Girth Rides A (Horse),The Dead Texan,The Dead Texan,Instrumental,154,8
 La Ballade d'Alain Georges,The Dead Texan,The Dead Texan,Instrumental,384,9
 Beatrice Pt. Two,The Dead Texan,The Dead Texan,Instrumental,244,10
 The Struggle,The Dead Texan,The Dead Texan,Instrumental,329,11
-Rails 3.1,hi@rubyshow.com (The Ruby Show),The Ruby Show,Podcast,1336,180
-#277 Mountable Engines,Ryan Bates,RailsCasts,Podcast,783
-#276 Testing Time & Web Requests,Ryan Bates,RailsCasts,Podcast,538
-#275 How I Test,Ryan Bates,RailsCasts,Podcast,927
-#282 Upgrading to Rails 3.1,Ryan Bates,RailsCasts,Podcast,522
-#283 Authentication with Sorcery,Ryan Bates,RailsCasts,Podcast,640
 60 degrees party cloudy,the velvet paintings,the velvet paintings,Alternative,235,1
 and then it rains,the velvet paintings,the velvet paintings,Alternative,315,2
 1998,the velvet paintings,the velvet paintings,Alternative,157,3
@@ -7577,18 +7424,12 @@ Shake,P.M. Dawn,"Of The Heart, Of The Soul And Of The Cross",Pop,201,10
 If I Wuz U,P.M. Dawn,"Of The Heart, Of The Soul And Of The Cross",Pop,287,11
 On A Clear Day,P.M. Dawn,"Of The Heart, Of The Soul And Of The Cross",Pop,326,12
 The Beautiful,P.M. Dawn,"Of The Heart, Of The Soul And Of The Cross",Pop,320,13
-#284 Active Admin,Ryan Bates,RailsCasts,Podcast,763
 Prog,Abort! Abort!,"Welcome To Abortland, Oregon",Alternative,390,1
 Mindstretch,Abort! Abort!,"Welcome To Abortland, Oregon",Alternative,280,2
 Black + Red,Abort! Abort!,"Welcome To Abortland, Oregon",Alternative,250,3
 Tease,Abort! Abort!,"Welcome To Abortland, Oregon",Alternative,345,4
 Freeway,Abort! Abort!,"Welcome To Abortland, Oregon",Alternative,390,5
 New Injection,Abort! Abort!,"Welcome To Abortland, Oregon",Alternative,258,6
-#285 Spork,Ryan Bates,RailsCasts,Podcast,560
-#286 Draper,Ryan Bates,RailsCasts,Podcast,730
-#288 Billing with Stripe,Ryan Bates,RailsCasts,Podcast,996
-Episode 0.6.8 - Growl and open source in the App Store with Chris Forsythe,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2652
-Smash Into Vim,PeepCode,Screencast,3093
 Spring Heeled Jack Flies Tonight,Tim Hecker,Harmony In Ultraviolet,Electronic,191,7
 Blood Rainbow,Tim Hecker,Harmony In Ultraviolet,Electronic,247,15
 Radio Spiricom,Tim Hecker,Harmony In Ultraviolet,Electronic,292,12
@@ -7633,9 +7474,6 @@ The Twins,Grachan Moncur III,Some Other Stuff,Jazz,776,3
 Nomadic,Grachan Moncur III,Some Other Stuff,Jazz,464,4
 Gnostic,Grachan Moncur III,Some Other Stuff,Jazz,707,1
 Thandiwa,Grachan Moncur III,Some Other Stuff,Jazz,501,2
-Episode 0.6.9 - Spree with Sean Schofield and Brian Quinn,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2798
-Tainted Love,Soft Cell,Non-Stop Erotic Cabaret,Pop,154,2
-I Can't Go For That,Daryl Hall And John Oates,Private Eyes,Pop,310,3
 How Will I Know,Whitney Houston,Whitney Houston,Pop,277,6
 Never Gonna Give You Up,Rick Astley,Whenever You Need Somebody,Pop,213,1
 Batdance,Prince,Batman,Pop,374,9
@@ -8014,7 +7852,6 @@ Coming Clean,Green Day,Dookie,Alternative,95,11
 Emenius Sleepus,Green Day,Dookie,Alternative,104,12
 In The End,Green Day,Dookie,Alternative,106,13
 F.O.D.,Green Day,Dookie,Alternative,347,14
-Episode 0.7.0 - Foundation and other Zurb goodies,Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,2080
 No Blues,Wes Montgomery & Wynton Kelly Trio,Smokin' at the Half Note,Jazz,776,1
 If You Could See Me Now,Wes Montgomery & Wynton Kelly Trio,Smokin' at the Half Note,Jazz,508,2
 Unit 7,Wes Montgomery & Wynton Kelly Trio,Smokin' at the Half Note,Jazz,407,3
@@ -8501,7 +8338,6 @@ Sophisticated Lady,Archie Shepp,The Way Ahead,Jazz,431,4
 New Africa,Archie Shepp,The Way Ahead,Jazz,777,5
 Bakai,Archie Shepp,The Way Ahead,Jazz,605,6
 Tracy Jacks,Blur,Parklife,Alternative,260,2
-"Episode 0.7.1 - Spine, and client-side MVC with Alex MacCaw",Adam Stacoviak and Wynn Netherland,The Changelog,Podcast,1381
 Odessa,Fennesz,Field Recordings 1995:2002,Electronic,89,12
 Instrument 2,Fennesz,Field Recordings 1995:2002,Electronic,366,3
 Instrument 4,Fennesz,Field Recordings 1995:2002,Electronic,305,5
@@ -8694,12 +8530,12 @@ Pilot Reprise/The All of Water,Philip Jeck,An Ark For The Listener,Electronic,51
 The Pilot (Among Our Shoals),Philip Jeck,An Ark For The Listener,Electronic,288,7
 All That's Allowed (Remix),Philip Jeck,An Ark For The Listener,Electronic,203,8
 "Chime, Chime (Re-rung)",Philip Jeck,An Ark For The Listener,Electronic,445,9
-Black Tusk,Loscil,Coast/ Range/ Arc,Electronic,602,1
-Fromme,Loscil,Coast/ Range/ Arc,Electronic,454,2
-Stave Peak,Loscil,Coast/ Range/ Arc,Electronic,399,3
-Neve,Loscil,Coast/ Range/ Arc,Electronic,486,4
-Brohm Ridge,Loscil,Coast/ Range/ Arc,Electronic,685,5
-Goat Mountain,Loscil,Coast/ Range/ Arc,Electronic,631,6
+Black Tusk,Loscil,Coast- Range- Arc,Electronic,602,1
+Fromme,Loscil,Coast- Range- Arc,Electronic,454,2
+Stave Peak,Loscil,Coast- Range- Arc,Electronic,399,3
+Neve,Loscil,Coast- Range- Arc,Electronic,486,4
+Brohm Ridge,Loscil,Coast- Range- Arc,Electronic,685,5
+Goat Mountain,Loscil,Coast- Range- Arc,Electronic,631,6
 Walc,Jacaszek,Treny,Electronic,192,9
 Lament,Jacaszek,Treny,Electronic,415,2
 Zal,Jacaszek,Treny,Electronic,299,4
