@@ -1,5 +1,5 @@
 class Release < ActiveRecord::Base
-  validates_presence_of :name#, :release_date
+  #validates_presence_of :name#, :release_date
   attr_accessible :name, :artist_tokens, :release_date, :album_art, :genre_id,
                   :artists_attributes, :release_tracks_attributes, :recordings_attributes
 
