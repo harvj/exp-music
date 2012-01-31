@@ -2,8 +2,8 @@
 <table class="releases">
 <% @releases.each do |release| %>
   <tr>
-    <td><%= link_to(image_tag(release.album_art_url(:icon).to_s), release) %></td>
     <td class="artist"><%= release.artists[0].name %></td>
+    <td><%= link_to(image_tag(release.album_art_url(:icon).to_s), release) %></td>
     <td><%= release.name %></td>
     <td><%= release.release_date.year %></td>
     <td><%= release.release_date.strftime("%b") %></td>

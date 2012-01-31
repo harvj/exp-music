@@ -15,4 +15,8 @@ module ApplicationHelper
     end
   end
 
+  def genre_css(release)
+    release.genre.name.downcase unless release.genre.nil?
+  end
+
 end

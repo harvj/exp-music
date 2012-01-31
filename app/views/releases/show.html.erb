@@ -1,5 +1,5 @@
 <p id="notice"><%= notice %></p>
-  <%= image_tag @release.album_art_url(:thumb).to_s, :class => "show-art" %>
+  <div class="show-art <%= genre_css(@release) %>"><%= image_tag @release.album_art_url(:thumb).to_s %></div>
   <h2><%= @release.name %></h2>
   <span>by</span>
   <h3><%= @release.artists[0].name %></h3>
@@ -23,7 +23,6 @@
     <% end %>
   </tbody>
 </table>     
-
 
 <%= link_to 'Edit', edit_release_path(@release) %> |
 <%= link_to 'Back', releases_path %>

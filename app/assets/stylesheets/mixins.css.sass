@@ -2,3 +2,8 @@
   @include button($color)
   padding: 2px 5px
   box-shadow: none
+
+@mixin genre($color)
+  background: $color
+  @include linear-gradient(lighten($color, 10%), $color)
+  @include border-radius(2px)

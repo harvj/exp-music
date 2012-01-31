@@ -34,6 +34,10 @@
   <span class="name field">
     <%= f.label :name, "Title" %><%= f.text_field :name %>
   </span><br>
+  <span class="genre field">
+    <%= f.label :genre %>
+    <%= f.select(:genre_id, Genre.order(:name).map{ |g| [g.name, g.id] }, { :include_blank => 'None' }) %>
+  </span><br>
   <span class="album-art field">
     <%= f.label :album_art %><%= f.file_field :album_art %>
   </span>
