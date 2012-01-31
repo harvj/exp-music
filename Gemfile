@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.2'
 gem 'pg'
+gem 'sqlite3'
 #gem 'hobo_fields'
 
 gem 'jquery-rails'
