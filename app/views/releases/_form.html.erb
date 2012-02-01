@@ -51,7 +51,7 @@
     </tr>
     </thead>
     <tbody>
-  <%= f.fields_for :release_tracks do |release_track_form| %>
+  <%= f.fields_for :release_tracks, @release_tracks do |release_track_form| %>
     <tr>
     <td class="new-track-no field">
       <%= release_track_form.text_field :track_no %>

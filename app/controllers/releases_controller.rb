@@ -2,7 +2,7 @@ class ReleasesController < ApplicationController
   before_filter :authenticate_user!
 
   def index
-    @releases = Release.order("release_date desc")
+    @releases = Release.includes(:artists).order("release_date desc")
   end
 
   def show
@@ -19,8 +19,9 @@ class ReleasesController < ApplicationController
 
   def edit
     @release = Release.find(params[:id])
-    (20 - @release.release_tracks.length).times do
-      track = @release.release_tracks.build(:recording => Recording.new)
+    @release_tracks = @release.release_tracks.order(:track_no)
+    (20 - @release_tracks.length).times do
+      @release_tracks << @release.release_tracks.build(:recording => Recording.new)
     end
   end
 
