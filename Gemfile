@@ -5,6 +5,8 @@ gem 'pg'
 gem 'sqlite3', :group => :development
 #gem 'hobo_fields'
 
+gem 'asset_sync'
+
 gem 'jquery-rails'
 gem 'devise'
 gem 'bourbon'
