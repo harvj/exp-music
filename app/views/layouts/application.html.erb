@@ -5,6 +5,16 @@
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <script type="text/javascript">
+    var socket = new easyXDM.Socket({
+    remote: "http://dev.sublimelearning.statestandards.com:17502/search.pl" ,
+    container: "frameId",
+    onMessage: function(message, origin) {
+      this.container.getElementsByTagName("iframe")[0].style.width = "100%";
+      this.container.getElementsByTagName("iframe")[0].style.height = (parseInt(message) + 40) + "px";
+    }
+  });
+  </script>
 </head>
 <body>
 

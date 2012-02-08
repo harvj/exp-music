@@ -7,6 +7,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery_ui
+//= require easyXDM
 //= require jquery.tokeninput
 //= require_tree .
 

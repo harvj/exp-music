@@ -5,7 +5,7 @@ Muzik::Application.routes.draw do
 
   resources :recordings
 
-  root to: "home#index"
+  root to: "releases#index"
 
   devise_for :users
 end
